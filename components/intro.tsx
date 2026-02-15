@@ -1,11 +1,13 @@
-export default function Intro() {
+import React from 'react';
+import ButtonUI from '../layout/ui/button';
+import AccordionUI from '../layout/ui/accordion';
+
+const Intro: React.FC = () => {
   return (
     <div>
-        <h1>Intro</h1>
-        <p>Paragraph for assignment 2.</p>
-        <ul>
-            <li>Here is a list of one item.</li>
-        </ul>
+        <h1>Hello student</h1>
+        <ButtonUI />
     </div>
   );
 }
+export default Intro;
